@@ -1,3 +1,9 @@
+Yocto layer for some Ricardicus projects
+========================================
+
+In here you will be able to include:
+  * ric-script interpreter
+  * recurrent-neural-net tool
 
 
 This README file contains information on the contents of the meta-ricardicus layer.
