@@ -8,8 +8,6 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
--
-
 Patches
 =======
 
