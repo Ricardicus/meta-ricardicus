@@ -13,15 +13,7 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
-
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
+-
 
 Patches
 =======
@@ -45,4 +37,4 @@ Run 'bitbake-layers add-layer meta-ricardicus'
 II. Misc
 ========
 
-Not much to add! Some projects. 
+-
