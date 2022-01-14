@@ -26,10 +26,9 @@ Dependencies
 Patches
 =======
 
-Please submit any patches against the meta-ricardicus layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
+Don't submit any patches.
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: Rickard Hallerbäck <rickard.hallerback@gmail.com>
 
 Table of Contents
 =================
