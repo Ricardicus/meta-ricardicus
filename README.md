@@ -31,6 +31,6 @@ II. Misc
 ========
 
 
-In here you will be able to include:
+With this layer you will be able to include:
   * ric-script interpreter
   * recurrent-neural-net tool
