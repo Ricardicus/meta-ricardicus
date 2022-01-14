@@ -45,4 +45,4 @@ Run 'bitbake-layers add-layer meta-ricardicus'
 II. Misc
 ========
 
---- replace with specific information about the meta-ricardicus layer ---
+Not much to add! Some projects. 
