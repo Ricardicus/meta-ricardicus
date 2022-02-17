@@ -8,6 +8,8 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
+   * Meson (https://git.yoctoproject.org/poky/plain/meta/recipes-devtools/meson/)
+
 Patches
 =======
 
