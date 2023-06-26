@@ -1,3 +1,15 @@
+diff --git a/meta/recipes-devtools/binutils/binutils-2.31.inc b/meta/recipes-devtools/binutils/binutils-2.31.inc
+index c9a3610e72..e0e5399a18 100644
+--- a/meta/recipes-devtools/binutils/binutils-2.31.inc
++++ b/meta/recipes-devtools/binutils/binutils-2.31.inc
+@@ -40,6 +40,7 @@ SRC_URI = "\
+      file://0022-Handle-ELF-compressed-header-alignment-correctly-by-.patch \
+      file://0023-gold-Get-alignment-of-uncompressed-section-from-ch_a.patch \
+      file://clang-bfd-fix.patch \
++     file://gold-errors-string.patch \
+      file://CVE-2018-17358.patch \
+      file://CVE-2018-17360.patch \
+      file://CVE-2018-18309.patch \
 diff --git a/meta/recipes-devtools/binutils/binutils-cross.inc b/meta/recipes-devtools/binutils/binutils-cross.inc
 index 02ec891606..adef384737 100644
 --- a/meta/recipes-devtools/binutils/binutils-cross.inc
