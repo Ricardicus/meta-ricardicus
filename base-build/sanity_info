@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/ubuntu/dev/garage/a/poky/build/tmp
+SSTATE_DIR /home/ubuntu/dev/garage/a/poky/build/sstate-cache
+NATIVELSBSTRING ubuntu-20.04
