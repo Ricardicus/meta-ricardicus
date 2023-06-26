@@ -1,12 +1,12 @@
-diff --git a/meta/recipes-devtools/binutils/binutils-2.31.inc b/meta/recipes-devtools/binutils/binutils-2.31.inc
-index c9a3610e72..000f0aee0f 100644
---- a/meta/recipes-devtools/binutils/binutils-2.31.inc
-+++ b/meta/recipes-devtools/binutils/binutils-2.31.inc
-@@ -37,6 +37,7 @@ SRC_URI = "\
-      file://0014-Detect-64-bit-MIPS-targets.patch \
-      file://0015-sync-with-OE-libtool-changes.patch \
-      file://0016-add-i386pep-emulation-for-x86_64.patch \
-+     file://gold-errors-string.patch \
-      file://0022-Handle-ELF-compressed-header-alignment-correctly-by-.patch \
-      file://0023-gold-Get-alignment-of-uncompressed-section-from-ch_a.patch \
-      file://clang-bfd-fix.patch \
+diff --git a/meta/recipes-devtools/binutils/binutils-cross.inc b/meta/recipes-devtools/binutils/binutils-cross.inc
+index 02ec891606..adef384737 100644
+--- a/meta/recipes-devtools/binutils/binutils-cross.inc
++++ b/meta/recipes-devtools/binutils/binutils-cross.inc
+@@ -11,6 +11,7 @@ INHIBIT_DEFAULT_DEPS = "1"
+ INHIBIT_AUTOTOOLS_DEPS = "1"
+ 
+ SRC_URI += "file://0002-binutils-cross-Do-not-generate-linker-script-directo.patch"
++SRC_URI += "file://gold-errors-string.patch"
+ 
+ # Specify lib-path else we use a load of search dirs which we don't use
+ # and mean the linker scripts have to be relocated.
