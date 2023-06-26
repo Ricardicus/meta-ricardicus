@@ -1,0 +1,13 @@
+diff --git a/gold/errors.h b/gold/errors.h
+index ebb7e5fb60a..a797016b76d 100644
+--- a/gold/errors.h
++++ b/gold/errors.h
+@@ -24,7 +24,7 @@
+ #define GOLD_ERRORS_H
+ 
+ #include <cstdarg>
+-
++#include <string>
+ #include "gold-threads.h"
+ 
+ namespace gold
