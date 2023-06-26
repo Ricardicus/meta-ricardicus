@@ -2,7 +2,7 @@ DESCRIPTION = "Ricardicus ric-script interpreter"
 HOMEPAGE = "https://ricardicus.se"
 LICENSE = "CLOSED"
 
-SRCREV = "96cfa72892079c4f6d6610bc6dac42bd273ea422"
+SRCREV = "6e15b737e1b0efcc80c8e73c1cdb3f98e36671b9"
 SRC_URI = "git://git@github.com/Ricardicus/ric-script.git"
 
 S = "${WORKDIR}/git"
